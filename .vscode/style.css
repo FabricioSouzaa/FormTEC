@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+#logo {
+    border: 1px solid red;
+    padding: 25px 598px 0px 22px;
+    display: flex;
+    background: white;
+    width: 650px;
+    height: 56px;
+}
+
+#background-image {
+    background: #FAC32B;
+    width: 1271px;
+    height: 400px;
+    padding: 0px, 48px, 0px, 48px;
+    gap: 32px;
+    position: relative;
+}
+
+#image-right {
+    float: right;
+    position: absolute;
+    border: 1px solid green;
+}
+
+#text {
+    position: absolute;
+    border: 1px solid red;
+}
