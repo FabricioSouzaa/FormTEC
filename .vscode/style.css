@@ -13,6 +13,7 @@
 
 #background-image {
     background: #FAC32B;
+    background-size: cover;
     width: 1271px;
     height: 400px;
     padding: 0px, 48px, 0px, 48px;
@@ -22,11 +23,10 @@
 
 #image-right {
     float: right;
-    position: absolute;
+    position: right absolute;
     border: 1px solid green;
 }
 
 #text {
-    position: absolute;
     border: 1px solid red;
 }
