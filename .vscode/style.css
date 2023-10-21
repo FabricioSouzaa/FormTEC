@@ -3,7 +3,6 @@
 }
 
 #logo {
-    border: 1px solid red;
     padding: 25px 598px 0px 22px;
     display: flex;
     background: white;
@@ -11,8 +10,9 @@
     height: 56px;
 }
 
-#background-image {
-    background: #FAC32B;
+#container {
+    background-image: url(./assets/fundo.png);
+    background-color: #FAC32B;
     background-size: cover;
     width: 1271px;
     height: 400px;
@@ -21,12 +21,10 @@
     position: relative;
 }
 
-#image-right {
-    float: right;
-    position: right absolute;
-    border: 1px solid green;
-}
-
-#text {
-    border: 1px solid red;
+#logo-dois img {
+    width: 644px;
+    height: 400px;
+    position: absolute;
+    top: 81px;
+    left: 600px;
 }
